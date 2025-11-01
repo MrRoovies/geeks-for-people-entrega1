@@ -1,7 +1,7 @@
 :root {
     --blue-1: #0f4c75;
-    --blue-2: #3282b8;
     --gray-1: #eeeeee;
+    --gray-2: #484d51;
     --accent: #bbe1fa;
 }
 
@@ -54,7 +54,8 @@ a {
 }
 
 .hero {
-    background: var(--blue-2);
+    /*background: url('../img/projects/blog_pixel_art_capa_star_wars.webp'); */
+    background: var(--gray-2);
     color: white;
     text-align: center;
     padding: 3rem 1rem;
@@ -65,7 +66,7 @@ a {
 }
 
 article{
-    padding: 3rem 1rem;
+    text-align: center;
 }
 
 article h2{
