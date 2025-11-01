@@ -1,0 +1,67 @@
+/* =========================
+   Layout principal (Grid e Flexbox)
+   ========================= */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    color: var(--gray-dark);
+    background-color: var(--gray-light);
+    margin: 0;
+}
+
+/* Header e nav */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-16);
+    background-color: var(--blue-dark);
+    color: var(--white);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: var(--space-16);
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li:hover {
+    background-color: var(--blue-light);
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+
+/* Footer fixo no rodapé */
+footer {
+    background-color: var(--blue-dark);
+    color: var(--white);
+    text-align: center;
+    padding: var(--space-16);
+    margin-top: auto; /* garante footer sempre no fundo */
+}
+
+/* Hero */
+.hero {
+    background: var(--gray-dark);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    padding: var(--space-32) var(--space-16);
+}
+
+/* Main sections */
+main section {
+    padding: var(--space-32) var(--space-16);
+}

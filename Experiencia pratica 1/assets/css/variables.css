@@ -1,0 +1,30 @@
+/* =========================
+   Variáveis CSS do sistema de design
+   ========================= */
+
+:root {
+    /* Paleta de cores */
+    --blue-dark: #0f4c75;
+    --blue-light: #3282b8;
+    --cyan: #bbe1fa;
+    --gray-dark: #333333;
+    --gray: #777777;
+    --gray-light: #eeeeee;
+    --white: #ffffff;
+    --accent: #f7d060;
+
+    /* Tipografia */
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-md: 16px;
+    --font-lg: 24px;
+    --font-xl: 32px;
+
+    /* Espaçamento modular */
+    --space-8: 8px;
+    --space-16: 16px;
+    --space-24: 24px;
+    --space-32: 32px;
+    --space-48: 48px;
+    --space-64: 64px;
+}

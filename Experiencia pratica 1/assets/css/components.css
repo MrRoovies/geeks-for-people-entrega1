@@ -1,0 +1,64 @@
+/* =========================
+   Componentes: Cards, Botões, Badges, Formulários, Feedbacks
+   ========================= */
+
+/* Cards de projetos */
+article {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: var(--space-16);
+    margin-bottom: var(--space-32);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+/* Botões */
+.btn, button {
+    background-color: var(--accent);
+    color: var(--blue-dark);
+    padding: var(--space-8) var(--space-16);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover, button:hover {
+    background-color: var(--blue-light);
+    color: var(--white);
+}
+
+button:disabled {
+    background-color: var(--gray);
+    cursor: not-allowed;
+}
+
+/* Formulários */
+form input, form select, form textarea {
+    width: 100%;
+    padding: var(--space-8);
+    margin-bottom: var(--space-16);
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: var(--font-md);
+}
+
+form input:focus, form textarea:focus {
+    border-color: var(--blue-light);
+    outline: none;
+}
+
+/* Badges / Tags */
+.badge {
+    display: inline-block;
+    background-color: var(--cyan);
+    color: var(--blue-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: var(--font-xs);
+}
