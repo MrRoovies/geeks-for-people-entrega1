@@ -1,0 +1,111 @@
+:root {
+    --blue-1: #0f4c75;
+    --blue-2: #3282b8;
+    --gray-1: #eeeeee;
+    --accent: #bbe1fa;
+}
+
+html, body {
+    height: 100%; /* necessário para o footer sempre ocupar o fundo */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--gray-1);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1; /* faz o main ocupar todo o espaço disponível */
+}
+
+header {
+    background: var(--blue-1);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+li:hover{
+    background: #0e3b59;
+}
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.hero {
+    background: var(--blue-2);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.sobre, .contato{
+    padding: 3rem 1rem;
+}
+
+article{
+    padding: 3rem 1rem;
+}
+
+article h2{
+    color: #696969;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--blue-1);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+
+fieldset {
+    border: 2px solid var(--blue-1);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+button {
+    background: var(--blue-2);
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--blue-1);
+    color: white;
+}

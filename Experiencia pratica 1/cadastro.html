@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Geeks for People</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/masks.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <label>Nome Completo: <input type="text" name="nome" required></label>
+                <label>E-mail: <input type="email" name="email" required></label>
+                <label>CPF: <input type="text" id="cpf" name="cpf" required></label>
+                <label>Telefone: <input type="tel" id="telefone" name="telefone" required></label>
+                <label>Data de Nascimento: <input type="date" name="nascimento" required></label>
+                <label>Endereço: <input type="text" name="endereco" required></label>
+                <label>CEP: <input type="text" id="cep" name="cep" required></label>
+                <label>Cidade: <input type="text" name="cidade" required></label>
+                <label>Estado: <input type="text" name="estado" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Tipo de Participação</legend>
+                <label><input type="radio" name="tipo" value="voluntario" required> Voluntário</label>
+                <label><input type="radio" name="tipo" value="doador"> Doador</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Mensagem</legend>
+                <textarea name="mensagem" rows="4" placeholder="Fale um pouco sobre você..."></textarea>
+            </fieldset>
+
+            <label><input type="checkbox" required> Aceito os termos de uso</label>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Geeks for People</p>
+    </footer>
+</body>
+</html>
